@@ -4,7 +4,7 @@ module "s3_bucket" {
 
   acl    = "private"
 
-  bucket_prefix = var.prefix
+  bucket_prefix = "ldterraworkshop"
 
   versioning = {
     enabled = true
